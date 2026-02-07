@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adriana Sandoval | WDD 130 </title>
+    <meta name="description" content="This activity is for learning how to use forms in HTML..">
+    <meta name="author" content="Adriana Sandoval Salamanca">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>Week 5 Activity: Poll Form</h1>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="browser">What is your favorite browser?</label>
+            <select id="browser" name="browser">
+                <option value="">Please select one</option>
+                <option value="chrome">Google Chrome</option>
+                <option value="firefox">Mozilla Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Microsoft Edge</option>
+                <option value="opera">Opera</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">List the places you have lived.</label>
+            <textarea id="feedback" name="feedback" rows="4"
+              placeholder="Enter the places you have lived..."></textarea>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2026 | Adriana Sandoval Salamanca | WDD 130</p>
+    </footer>
+</body>
+
+</html>
